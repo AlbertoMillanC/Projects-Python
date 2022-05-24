@@ -1,4 +1,4 @@
-#bingo 
+#bingo crear uun programa para un lugar de azar
 
 import random
 def nueva_balota():
