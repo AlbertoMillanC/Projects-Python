@@ -78,3 +78,11 @@ periodic_table = {
 for element in periodic_table:
     if element[0] == 'H':
         print(periodic_table[element])
+
+while True: 
+    element = input('Ingrese el nombre del elemento: ')
+    if element in periodic_table:
+        print(periodic_table[element])
+        break
+    
+  
