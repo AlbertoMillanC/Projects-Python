@@ -10,7 +10,7 @@ qr = qrcode.QRCode(
     border=4,
 )
 
-qr.add_data('http://www.google.com')
+qr.add_data('https://www.elcomercio.pe')
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
