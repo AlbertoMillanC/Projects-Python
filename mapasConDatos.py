@@ -1,6 +1,4 @@
-"""crear un mapa con datos de natalidad migracion y otro con datos de poblacion de  cada pais.  
-y una funcion que me calcule la poblacion total de un pais. 
-y una funcion que me calcule la poblacion total de un continente.   """  
+#crear un mapa con datos de natalidad migracion y otro con datos de poblacion de  cada pais. 
 
 
 import folium
