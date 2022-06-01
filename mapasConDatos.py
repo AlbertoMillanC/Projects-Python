@@ -1,9 +1,11 @@
-# crear un mapa con datos de natalidad migracion y otro con datos de poblacion.
+"""crear un mapa con datos de natalidad migracion y otro con datos de poblacion de  cada pais.  
+y una funcion que me calcule la poblacion total de un pais. 
+y una funcion que me calcule la poblacion total de un continente.   """  
 
 
 import folium
 import pandas as pd
-
+#import geopandas as gpd
 df = pd.read_csv("Poblacion_y_natalidad.csv")
 
 mapa = folium.Map(location=[df["Latitud"].mean(), df["Longitud"].mean()], zoom_start=3)
