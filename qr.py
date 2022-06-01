@@ -1,6 +1,8 @@
 # generar codigo qr
 
 
+
+
 import qrcode
 
 qr = qrcode.QRCode(
@@ -10,7 +12,7 @@ qr = qrcode.QRCode(
     border=4,
 )
 
-qr.add_data('https://www.elcomercio.pe')
+qr.add_data('http://www.google.com')
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
